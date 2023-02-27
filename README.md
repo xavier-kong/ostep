@@ -1,7 +1,8 @@
-- textbook (https://pages.cs.wisc.edu/~remzi/OSTEP/)
-    - [x] intro
-    - [] virtualization
-        - [] currently on chapter 4
+- progress (completion includes homework) (https://pages.cs.wisc.edu/~remzi/OSTEP/)
+    - [x] Intro
+    - [] Virtualization
+        - [x] 4. Processes (cpu-intro)
+        - [] 5. Proces API (cpu-api)
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
