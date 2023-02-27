@@ -6,5 +6,4 @@
 - projects
 	- [] initial
 		- [x] wcat
-		- [] wgrep
-			- [] can read input from pipe | stdin
+		- [x] wgrep
