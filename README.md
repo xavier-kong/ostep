@@ -8,5 +8,5 @@
     - [] initial
         - [x] wcat
         - [x] wgrep
-        - [] wzip
-        - [] wunzip
+        - [] wzip and wunzip (will come back to later)
+        - [] reverse
