@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+char createString(char *currChar, int count) {
+    char res[5];
+
+    res[4] = *currChar;
+
+    return *res;
+}
+
 void handleLine(char line[512]) {
     int len = strlen(line);
 
@@ -16,9 +24,10 @@ void handleLine(char line[512]) {
         if (*currChar == line[i]) {
             currCount++;
         } else {
-            fwrite(currChar, strlen(currChar), 1, stdout);
-            // stdout
-            // change char and count
+            char strToWrite = createString(currChar, currCount);
+            fwrite(&strToWrite, 1, strlen(&strToWrite), stdout);
+            currChar = &line[i];
+            currCount = 1;
         }
     }
 }
