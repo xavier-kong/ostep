@@ -11,4 +11,4 @@
         - [x] wcat
         - [x] wgrep
         - [] wzip and wunzip (will come back to later)
-        - [] reverse
+        - [x] reverse
