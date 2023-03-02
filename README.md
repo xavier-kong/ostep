@@ -2,10 +2,7 @@
     - [x] Intro
     - [] Virtualization
         - [x] 4. Processes (cpu-intro)
-        - [] 5. Proces API (cpu-api)
-            - [x] questions
-            - [] code
-                - q4
+        - [x] 5. Proces API (cpu-api)
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
