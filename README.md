@@ -3,7 +3,9 @@
     - [] Virtualization
         - [x] 4. Processes (cpu-intro)
         - [x] 5. Proces API (cpu-api)
-        - [] 6. Mechanism: Limited Direct Execution (cpu-mechanisms)
+        - [] 6. Direct Execution (cpu-mechanisms)
+            - [x] reading
+            - [] homework
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
