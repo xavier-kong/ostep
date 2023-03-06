@@ -2,9 +2,11 @@
     - [x] Intro
     - [] Virtualization
         - [x] 4. Processes (cpu-intro)
-        - [x] 5. Proces API (cpu-api)
+        - [x] 5. Process API (cpu-api)
         - [x] 6. Direct Execution (cpu-mechanisms)
-        - [] 7. CPU Scheduleing (cpu-sched)
+        - [] 7. CPU Scheduling (cpu-sched)
+            - [x] Reading
+            - [] Homework
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
