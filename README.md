@@ -4,9 +4,7 @@
         - [x] 4. Processes (cpu-intro)
         - [x] 5. Process API (cpu-api)
         - [x] 6. Direct Execution (cpu-mechanisms)
-        - [] 7. CPU Scheduling (cpu-sched)
-            - [x] Reading
-            - [] Homework
+        - [x] 7. CPU Scheduling (cpu-sched)
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
