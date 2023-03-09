@@ -6,7 +6,8 @@
         - [x] 6. Direct Execution (cpu-mechanisms)
         - [x] 7. CPU Scheduling (cpu-sched)
         - [] 8. Multi level feedback 
-            - on 8.2
+            - [x] reading
+            - [] homework
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
