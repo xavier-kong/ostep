@@ -6,7 +6,8 @@
         - [x] 6. Direct Execution (cpu-mechanisms)
         - [x] 7. CPU Scheduling (cpu-sched)
         - [x] 8. Multi level feedback (cpu-sched-mlfq)
-        - [] 9. Lottery Scheduling (cpu-sched-Lottery)
+        - [x] 9. Lottery Scheduling (cpu-sched-Lottery)
+        - [ ] 10. Multi-CPU Scheduling (cpu-sched-multi)
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
