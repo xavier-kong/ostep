@@ -12,9 +12,7 @@
             - to return to after finishing concurrency as recommended
         - [x] 11. Summary
         - [x] 12. Dialogue
-        - [] 13. Address Spaces (vm-intro)
-            - [x] reading
-            - [] homework
+        - [x] 13. Address Spaces (vm-intro)
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
