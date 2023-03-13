@@ -1,6 +1,7 @@
 - progress (completion includes homework) (https://pages.cs.wisc.edu/~remzi/OSTEP/)
     - [x] Intro
     - [] Virtualization
+        - [x] 3. Dialogue
         - [x] 4. Processes (cpu-intro)
         - [x] 5. Process API (cpu-api)
         - [x] 6. Direct Execution (cpu-mechanisms)
@@ -8,6 +9,12 @@
         - [x] 8. Multi level feedback (cpu-sched-mlfq)
         - [x] 9. Lottery Scheduling (cpu-sched-Lottery)
         - [ ] 10. Multi-CPU Scheduling (cpu-sched-multi)
+            - to return to after finishing concurrency as recommended
+        - [x] 11. Summary
+        - [x] 12. Dialogue
+        - [] 13. Address Spaces (vm-intro)
+            - [x] reading
+            - [] homework
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
