@@ -13,6 +13,9 @@
         - [x] 11. Summary
         - [x] 12. Dialogue
         - [x] 13. Address Spaces (vm-intro)
+        - [x] 14. Memory API (vm-api)
+        - [] 15. Address Translation (vm-mechanism)
+
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
@@ -20,3 +23,5 @@
         - [x] wgrep
         - [] wzip and wunzip (will come back to later)
         - [x] reverse
+    - [] processes and scheduling
+        - [] Shell
