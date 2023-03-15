@@ -14,7 +14,8 @@
         - [x] 12. Dialogue
         - [x] 13. Address Spaces (vm-intro)
         - [x] 14. Memory API (vm-api)
-        - [] 15. Address Translation (vm-mechanism)
+        - [x] 15. Address Translation (vm-mechanism)
+        - [ ] 16. Segmentation (vm-segmentation)
 
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)

@@ -2,19 +2,23 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 int runInteractive() {
     char buff[99999];
 
     while (1) {
         printf("wish> ");
 
-        if (fgets(buff, sizeof(buff), stdin) != NULL) {
-
-            buff[strlen(buff) - 1] = '\0';
-
-            printf("%s\n\n", buff);
-
+        if (fgets(buff, sizeof(buff), stdin) == NULL) {
+            return 0;
         }
+
+        buff[strlen(buff) - 1] = '\0';
+
+        if (strcmp(buff, "exit") == 0) {
+            return 0;
+        }
+
     }
 
     return 0;
