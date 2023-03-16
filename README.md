@@ -15,7 +15,8 @@
         - [x] 13. Address Spaces (vm-intro)
         - [x] 14. Memory API (vm-api)
         - [x] 15. Address Translation (vm-mechanism)
-        - [ ] 16. Segmentation (vm-segmentation)
+        - [x] 16. Segmentation (vm-segmentation)
+        - [ ] 17. Free Space Management (vm-freespace)
 
 
 - projects (https://github.com/remzi-arpacidusseau/ostep-projects)
