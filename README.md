@@ -17,7 +17,7 @@
     - [x] 16. Segmentation (vm-segmentation)
     - [x] 17. Free Space Management (vm-freespace)
     - [ ] 18. Paging: Introduction (vm-paging)
-
+        - on page 16, 18.3 what's actually in the page table?
 ### Projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
     - [x] wcat
