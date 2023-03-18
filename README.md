@@ -8,16 +8,15 @@
     - [x] 7. CPU Scheduling (cpu-sched)
     - [x] 8. Multi level feedback (cpu-sched-mlfq)
     - [x] 9. Lottery Scheduling (cpu-sched-Lottery)
-    - [] 10. Multi-CPU Scheduling (cpu-sched-multi)
-        - to return to after finishing concurrency as recommended
+    - [ ] 10. Multi-CPU Scheduling (cpu-sched-multi) to return to after finishing concurrency as recommended
     - [x] 11. Summary
     - [x] 12. Dialogue
     - [x] 13. Address Spaces (vm-intro)
     - [x] 14. Memory API (vm-api)
     - [x] 15. Address Translation (vm-mechanism)
     - [x] 16. Segmentation (vm-segmentation)
-    - [] 17. Free Space Management (vm-freespace)
-        - Currently at Page 5 Tracking The Size of Allocated Regions
+    - [x] 17. Free Space Management (vm-freespace)
+    - [ ] 18. Paging: Introduction (vm-paging)
 
 ### Projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
