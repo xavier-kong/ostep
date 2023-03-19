@@ -16,8 +16,8 @@
     - [x] 15. Address Translation (vm-mechanism)
     - [x] 16. Segmentation (vm-segmentation)
     - [x] 17. Free Space Management (vm-freespace)
-    - [ ] 18. Paging: Introduction (vm-paging)
-        - on page 16, 18.3 what's actually in the page table?
+    - [x] 18. Paging: Introduction (vm-paging)
+    - [] 19. 
 ### Projects (https://github.com/remzi-arpacidusseau/ostep-projects)
     - [] initial
     - [x] wcat
