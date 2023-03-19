@@ -39,37 +39,57 @@ size_t trimwhitespace(char *out, size_t len, const char *str) {
     return out_size;
 }
 
-
 char * parseCommands(char buff[99999], int *num_comm_p) {
     size_t len = 16;
-    int **commands = malloc(len * sizeof(int *));
+    char **commands = malloc(len * sizeof(char *));
 
     char *mainString;
     int i = 0;
 
-    while((mainString = strsep(&mainString, "&")) != NULL) {
+    while((mainString = strsep(&buff, "&")) != NULL) {
         if (i == len) {
             len *= 2;
-            commands = realloc(commands, len * sizeof(int *));
+            commands = realloc(commands, len * sizeof(char *));
         }
 
         char *subString;
         int j = 0;
+        size_t sub_arr_len = 1;
 
-        while((subString = strsep(&subString, " ")) != NULL) {
+        *num_comm_p += 1;
 
+        char **sub = malloc(sub_arr_len * sizeof(char *));
+
+        while((subString = strsep(&mainString, " ")) != NULL) {
+            if (j == sub_arr_len) {
+                len += 2;
+                sub = realloc(sub, sub_arr_len * sizeof(char *));
+            }
+                trimwhitespace(sub[j], 99999, subString);
+            j++;
         }
+
+        if (j == len) {
+            len += 2;
+            sub = realloc(sub, sub_arr_len * sizeof(char *));
+        }
+
+        sub[j] = NULL;
+
+        commands[i] = *sub;
+        i++;
     }
 
-
-
-
-
-    return "";
+    return *commands;
 }
 
 void runCommand(char **argv) {
     int pid = fork();
+
+    /*printf("%s", argv[0]);
+      printf("%s", argv[1]);
+      printf("%s", argv[2]);*/
+    return;
 
     if (pid < 0) {
         fprintf(stderr, "fork failure\n");
@@ -105,6 +125,7 @@ int runInteractive() {
         int num_commands = 1;
 
         char *commands = parseCommands(buff, &num_commands);
+
         // make parseCommands return an array of arrays
         // iterate through arrays and run command each time
 
